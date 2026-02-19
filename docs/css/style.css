@@ -1,0 +1,362 @@
+:root {
+    --primary: #d30731;
+    --dark: #1a1a1a;
+    --light: #f8f9fa;
+    --card-bg: #ffffff;
+    --text: #333333;
+    --nav-bg: rgba(0, 0, 0, 0.95);
+    --bg-alt: #e9ecef;
+}
+
+[data-theme="dark"] {
+    --light: #121212;
+    --card-bg: #1e1e1e;
+    --text: #f8f9fa;
+    --text-muted: #ced4da;
+    --bg-alt: #181818;
+}
+
+[data-theme="dark"] .card-text, [data-theme="dark"] .text-secondary {
+    color: var(--text-muted) !important;
+}
+
+[data-theme="dark"] .game-section-wrapper {
+    background-color: #0a0a0a;
+}
+
+[data-theme="dark"] .toast {
+    background-color: #2b2b2b;
+    color: white;
+    border: 1px solid #444;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    background-color: var(--light);
+    color: var(--text);
+    overflow-x: hidden;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1, h2, h3, .navbar-brand, .game-main-title {
+    font-family: 'Cinzel', serif;
+}
+
+.bg-alt {
+    background-color: var(--bg-alt);
+}
+
+.bg-card {
+    background-color: var(--card-bg);
+}
+
+.navbar {
+    background: var(--nav-bg) !important;
+    backdrop-filter: blur(10px);
+    padding: 15px 0;
+    z-index: 2050;
+}
+
+.nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--primary) !important;
+}
+
+.btn-game-highlight {
+    background: var(--primary);
+    color: white !important;
+    border-radius: 50px;
+    padding: 8px 25px !important;
+}
+
+.hero-section {
+    height: 100vh;
+    background: url('../img/wales_hero_bg.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7));
+}
+
+.content-overlay {
+    position: relative;
+    z-index: 2;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: var(--primary);
+    margin: 15px auto 0;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.list-group-item {
+    background-color: var(--card-bg);
+    color: var(--text);
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 15px 20px;
+    transition: 0.2s;
+}
+
+.list-group-item.active {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.img-container {
+    overflow: hidden;
+}
+
+.img-container img {
+    transition: transform 0.5s ease;
+}
+
+.card:hover .img-container img {
+    transform: scale(1.1);
+}
+
+.dropdown-menu {
+    background-color: var(--card-bg);
+    border: none;
+}
+
+.dropdown-item {
+    color: var(--text);
+    padding: 10px 20px;
+}
+
+.dropdown-item:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+
+.game-section-wrapper {
+    background: #2b2b2b;
+    padding: 80px 0;
+    border-top: 5px solid var(--primary);
+    transition: background-color 0.3s ease;
+}
+
+.game-main-title {
+    color: #f1c40f;
+    text-shadow: 0 0 10px rgba(241, 196, 15, 0.5);
+    margin-bottom: 30px;
+}
+
+#game-section {
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #2c3e50, #4ca1af);
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+    border: 4px solid #333;
+}
+
+#game-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#game-overlay {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.85);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    transition: opacity 0.3s;
+}
+
+#game-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.dragon-avatar {
+    position: absolute;
+    width: 80px;
+    height: auto;
+    left: 60px;
+    z-index: 100;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+
+.castle {
+    position: absolute;
+    width: 70px;
+    background: #444;
+    border: 3px solid #222;
+    z-index: 10;
+    box-shadow: 10px 0 20px rgba(0,0,0,0.3);
+}
+
+.castle::after {
+    content: '';
+    position: absolute;
+    left: -5px; width: 80px; height: 25px;
+    background: #333;
+}
+
+.coin {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: radial-gradient(circle at 30% 30%, #ffd700, #b8860b);
+    border-radius: 50%;
+    border: 2px solid #daa520;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #5c4004;
+    z-index: 20;
+    box-shadow: 0 0 15px gold;
+    font-size: 1.2rem;
+    animation: spin 1.5s infinite ease-in-out;
+}
+
+@keyframes spin {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+#ui {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    text-shadow: 2px 2px 0 #000;
+}
+
+#score { 
+    color: white;
+    font-size: 28px;
+}
+
+#speed-tag {
+
+    color: white; 
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif !important;
+    text-shadow: none !important; 
+    font-weight: normal;
+}
+
+#game-container {
+    position: relative; 
+}
+
+#mobile-controls {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 100;
+}
+
+#mobile-controls button {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    font-size: 24px;
+    border: 2px solid rgba(255,255,255,0.3);
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+}
+
+
+footer {
+    background: #0a0a0a;
+    color: #888;
+    padding: 40px 0;
+    border-top: 1px solid #222;
+}
+
+.btn-source {
+    background: none;
+    border: none;
+    color: #6c757d;
+    font-size: 0.85rem;
+    text-decoration: underline;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    padding: 0;
+}
+.btn-source:hover {
+    opacity: 1;
+    color: var(--bs-danger);
+}
+.toast-container {
+    z-index: 2100;
+}
+.toast {
+    background-color: var(--card-bg);
+    color: var(--text);
+    border: 1px solid var(--primary);
+}
+
+.dragon-avatar {
+    width: 100px;  
+    height: 80px;  
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 60px;
+    z-index: 10;
+    background-image: url('../img/flying_dragon-red1.png');
+}

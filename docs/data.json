@@ -1,0 +1,29 @@
+{
+    "geography": [
+        {"id": "0", "img": "img/map_wales_britain.jpeg", "title": "Elhelyezkedés", "text": "Wales Nagy-Britannia szigetének nyugati részén fekszik. Keletről Anglia, északról és nyugatról az Ír-tenger, délről pedig a Bristol-csatorna határolja."},
+        {"id": "1", "img": "img/snowdon_mountain.png", "title": "Snowdonia", "text": "Az ország északi részét a Snowdonia Nemzeti Park uralja, ahol Wales legmagasabb csúcsa, a Snowdon (Yr Wyddfa) található (1085 m)."},
+        {"id": "2", "img": "img/city.jpeg", "title": "Városok és Tengerpart", "text": "A népesség nagy része a déli iparvidékeken és a tengerparti városokban él. Cardiff, Swansea és Newport a legjelentősebb központok."}
+    ],
+    "history": [
+        {"id": "0", "img": "img/stones.jpeg", "title": "Bevezető", "text": "Wales az Egyesült Királyság egyik országrésze, Nagy-Britannia nyugati részén található. Történelme több ezer évre nyúlik vissza. A területen már a kelták is éltek, akik meghatározták a walesi kultúra és nyelv alapjait. A rómaiak a Kr. u. 1. században hódították meg a területet, majd a Római Birodalom bukása után kisebb kelta királyságok jöttek létre."},
+        {"id": "1", "img": "img/castle1.jpeg", "title": "Középkor", "text": "A középkorban Wales gyakran harcolt az angol uralkodók ellen függetlensége megőrzéséért. Ekkor épültek a ma is látható monumentális várak."},
+        {"id": "2", "img": "img/owain_glyndwr.jpg", "title": "Owain Glyndŵr", "text": "Az egyik legismertebb walesi szabadságharcos Owain Glyndŵr volt, aki a 15. század elején felkelést vezetett az angol uralom ellen. Bár a felkelés végül nem járt sikerrel, Owain Glyndŵr a mai napig a walesi nemzeti identitás egyik legfontosabb alakja."},
+        {"id": "3", "img": "img/map_wales_britain2.jpeg", "title": "Modern kor", "text": "A 16. században Wales hivatalosan is Anglia részévé vált, de kulturális és nyelvi sajátosságait megőrizte. A 20. században megerősödött a nemzeti öntudat, és ma Wales saját parlamenttel (Senedd) rendelkezik, amely bizonyos kérdésekben önálló döntéseket hozhat."}
+    ],
+    "culture": [
+        {"id": "0", "img": "img/dragon.jpeg", "title": "Nyelv és Identitás", "text": "Wales kultúrája gazdag és egyedi. Az ország egyik hivatalos nyelve a walesi, amely egy ősi kelta nyelv, és ma is sokan beszélik. Az oktatásban és a médiában is jelen van, ami segíti fennmaradását."},
+        {"id": "1", "img": "img/walesi_ferfikorus.png", "title": "Zene", "text": "A zene kiemelkedően fontos a walesi kultúrában. Wales-t gyakran nevezik „az éneklés földjének”, mivel híres a férfikórusairól és népzenei hagyományairól. Az ország nemzeti ünnepe március 1., Szent Dávid napja."},
+        {"id": "2", "img": "img/castle2.jpeg", "title": "Látnivalók", "text": "Wales híres középkori várairól, zöld hegyeiről és nemzeti parkjairól is. A táj és a történelmi emlékek fontos szerepet játszanak a nemzeti identitásban."},
+        {"id": "3", "img": "img/flag.png", "title": "Zászló", "text": "A walesi zászlón egy vörös sárkány látható, amely az egyik legkülönlegesebb nemzeti jelkép Európában. A sárkány a bátorságot és az erőt jelképezi."}
+    ],
+    "literature": [
+        {"id": "0", "img": "img/walesi_bardok.jpg", "title": "Walesi bárdok 1", "text": "Wales különleges helyet foglal el a magyar irodalomban is. Arany János 1857-ben írta meg híres balladáját, A walesi bárdok című művét."},
+        {"id": "1", "img": "img/king_edward.jpg", "title": "Walesi bárdok 2", "text": "A vers története szerint I. Edward angol király meghódítja Walest, majd lakomát rendez. Felszólítja a walesi bárdokat (költőket), hogy dicsőítsék őt, ám ők inkább a szabadságot és a hazaszeretetet éneklik meg. A király ezért kivégezteti őket."},
+        {"id": "2", "img": "img/mountain1.jpeg", "title": "Walesi bárdok 3", "text": "A mű valójában nemcsak Walesről szól, hanem burkolt politikai üzenetet is hordozott. Arany János a verssel a magyar szabadságharc leverésére és az elnyomásra utalt. Ezért különösen fontos március 15. kapcsán, hiszen a szabadságért való kiállás gondolatát fejezi ki."}
+    ],
+    "attractions": [
+        {"id": "0", "img": "img/caernarfon_castle.png", "title": "Caernarfon Vára", "text": "Az egyik legimpozánsabb középkori építmény, I. Edward király építtette. Itt iktatták be Károly herceget Walesi Herceggé."},
+        {"id": "1", "img": "img/castle3.jpeg", "title": "Conwy Vára", "text": "Az UNESCO Világörökség része, hatalmas falai és tornyai szinte érintetlenül maradtak fenn a középkor óta."},
+        {"id": "2", "img": "img/castle4.jpeg", "title": "Középkori Erődök", "text": "Wales a várak földje; négyzetkilométerenként itt található a legtöbb vár a világon."}
+    ]
+}
