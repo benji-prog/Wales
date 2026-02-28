@@ -1,0 +1,132 @@
+{
+    "geography": [
+        {
+            "id": "0", 
+            "img": "img/map_wales_britain.jpeg", 
+            "title": "Elhelyezkedés", 
+            "text": "Wales Nagy-Britannia szigetének nyugati részén fekszik. Keletről Anglia, északról és nyugatról az Ír-tenger határolja.",
+            "modalText": "Wales egy rendkívül változatos földrajzi adottságokkal rendelkező ország Nagy-Britannia nyugati partján. Keletről Anglia, északról és nyugatról az Ír-tenger, délről pedig a Bristol-csatorna határolja. Területe több mint 20 000 négyzetkilométer, melynek jelentős részét hegyvidékek és dombságok borítják, különösen az északi és középső régiókban.",
+            "modalImages": ["img/map_wales_britain.jpeg", "img/map_wales.jpeg", "img/wales_hero_bg.jpg"]
+        },
+        {
+            "id": "1", 
+            "img": "img/snowdon_mountain.png", 
+            "title": "Snowdonia", 
+            "text": "Az ország északi részét a Snowdonia Nemzeti Park uralja, ahol Wales legmagasabb csúcsa, a Snowdon található.",
+            "modalText": "A Snowdonia Nemzeti Park (walesi nyelven Eryri) Wales legnagyobb és legrégebbi nemzeti parkja. Itt emelkedik a Snowdon (Yr Wyddfa), amely 1085 méteres magasságával Wales és egyben Anglia legmagasabb pontja. A terület nemcsak lenyűgöző hegycsúcsairól, hanem mély völgyeiről, kristálytiszta tavairól és ritka élővilágáról is híres.",
+            "modalImages": ["img/snowdon_mountain.png", "img/mountain1.jpeg"]
+        },
+        {
+            "id": "2", 
+            "img": "img/city.jpeg", 
+            "title": "Városok", 
+            "text": "A népesség nagy része a déli iparvidékeken és a tengerparti városokban él, mint Cardiff és Swansea.",
+            "modalText": "Wales lakosságának túlnyomó többsége az ország déli részén, a partvidéken és a történelmi iparvidékeken koncentrálódik. A főváros, Cardiff, egy modern, nyüzsgő metropolisz, míg Swansea és Newport jelentős kulturális és kereskedelmi központok. Északon a települések sokkal ritkábban helyezkednek el, és jobban megőrizték tradicionális walesi karakterüket.",
+            "modalImages": ["img/city.jpeg", "img/wales_hero_bg.jpg"]
+        }
+    ],
+    "history": [
+        {
+            "id": "0", 
+            "img": "img/stones.jpeg", 
+            "title": "Kelta Gyökerek", 
+            "text": "Történelme több ezer évre nyúlik vissza. A területen már a kelták is éltek, akik meghatározták a walesi kultúrát.",
+            "modalText": "Wales történelme az ősidőkig nyúlik vissza. A területet a vaskorban kelta törzsek népesítették be, akik erős kulturális és nyelvi alapokat fektettek le. A rómaiak a Kr. u. 1. században hódították meg a területet, gazdagítva azt utakkal és erődökkel. A Római Birodalom bukása után apró, független kelta királyságok jöttek létre, melyek hősiesen ellenálltak a betörő angolszászoknak.",
+            "modalImages": ["img/stones.jpeg", "img/castle1.jpeg"]
+        },
+        {
+            "id": "1", 
+            "img": "img/castle1.jpeg", 
+            "title": "A Várak Kora", 
+            "text": "A középkorban Wales gyakran harcolt az angol uralkodók ellen függetlensége megőrzéséért. Ekkor épültek a hatalmas várak.",
+            "modalText": "A középkori Wales történetét az angol uralkodókkal vívott folyamatos hatalmi harcok határozták meg. I. Edward angol király a 13. század végén hajtotta uralma alá a területet, és hatalmának megszilárdítása érdekében egy hatalmas, 'vaskorong' néven is ismert várrendszert építtetett. Ezek az építmények, mint Caernarfon vagy Conwy, ma az UNESCO Világörökség részei.",
+            "modalImages": ["img/castle1.jpeg", "img/castle2.jpeg", "img/castle3.jpeg"]
+        },
+        {
+            "id": "2", 
+            "img": "img/owain_glyndwr.jpg", 
+            "title": "A Szabadságharc", 
+            "text": "Az egyik legismertebb walesi szabadságharcos Owain Glyndŵr volt, aki a 15. század elején felkelést vezetett.",
+            "modalText": "Owain Glyndŵr a walesi történelem egyik legikonikusabb alakja. 1400-ban felkelést indított IV. Henrik angol király ellen, és sikerült egy független walesi parlamentet összehívnia, sőt, herceggé is koronázták. Bár az angol túlerő végül felőrölte a lázadást, Glyndŵr sosem adta meg magát, és a mai napig a walesi függetlenség és büszkeség szimbóluma.",
+            "modalImages": ["img/owain_glyndwr.jpg", "img/owain_flag.png"]
+        },
+        {
+            "id": "3", 
+            "img": "img/map_wales_britain2.jpeg", 
+            "title": "Modern Kor", 
+            "text": "A 20. században megerősödött a nemzeti öntudat, és ma Wales saját parlamenttel (Senedd) rendelkezik.",
+            "modalText": "A 16. századi uniós törvények hivatalosan is Angliához csatolták Walest, de a walesi identitás és nyelv sosem tűnt el. Az ipari forradalom idején Dél-Wales a világ szénkitermelésének központjává vált. A 20. század végétől erősödött a politikai autonómia iránti igény, ami 1999-ben a Walesi Nemzetgyűlés (később Senedd) megalakulásához vezetett, visszaadva az ország részleges önrendelkezését.",
+            "modalImages": ["img/map_wales_britain2.jpeg", "img/caernarfon_castle.png"]
+        }
+    ],
+    "culture": [
+        {
+            "id": "0", 
+            "img": "img/dragon.jpeg", 
+            "title": "Nyelv és Identitás", 
+            "text": "Az ország egyik hivatalos nyelve a walesi, amely egy ősi kelta nyelv, és ma is sokan beszélik.",
+            "modalText": "A walesi nyelv (Cymraeg) Európa egyik legrégebbi, ma is élő nyelve. Míg sok más kelta nyelv a kihalás szélére sodródott, a walesi az oktatásnak, a médiának és a büszke közösségeknek köszönhetően reneszánszát éli. A kétnyelvűség mindenhol jelen van Walesben: az útjelző tábláktól kezdve a hivatalos dokumentumokig mindent megtalálunk walesiül is.",
+            "modalImages": ["img/dragon.jpeg", "img/flag.png"]
+        },
+        {
+            "id": "1", 
+            "img": "img/walesi_ferfikorus.png", 
+            "title": "A Zene Földje", 
+            "text": "Wales-t gyakran nevezik az éneklés földjének, mivel híres a férfikórusairól és népzenei hagyományairól.",
+            "modalText": "A zene és a költészet a walesi lélek mélyén gyökerezik. Az 'Eisteddfod' egy hagyományos fesztivál, amely a walesi irodalmat, zenét és előadóművészetet ünnepli, és a középkori bárdok találkozóira vezethető vissza. Emellett a walesi férfikórusok világhírűek, erőteljes és érzelmes hangzásukkal gyakran a helyi bányász- és ipari közösségekből nőttek ki.",
+            "modalImages": ["img/walesi_ferfikorus.png", "img/mountain1.jpeg"]
+        },
+        {
+            "id": "2", 
+            "img": "img/flag.png", 
+            "title": "A Vörös Sárkány", 
+            "text": "A walesi zászlón egy vörös sárkány (Y Ddraig Goch) látható, amely a bátorságot és az erőt jelképezi.",
+            "modalText": "Y Ddraig Goch, a vörös sárkány a walesi zászló központi alakja, és az egyik legrégebbi nemzeti szimbólum. A legenda szerint Merlin próféciája a vörös (kelta) és a fehér (angolszász) sárkány harcáról szólt, ahol a vörös sárkány végső győzelme a walesi nép fennmaradását jelképezte. A sárkány motívum mindenhol megjelenik az országban, a sportmezektől a hivatalos címerekig.",
+            "modalImages": ["img/flag.png", "img/dragon.jpeg"]
+        }
+    ],
+    "literature": [
+        {
+            "id": "0", 
+            "img": "img/walesi_bardok.jpg", 
+            "title": "A Ballada Születése", 
+            "text": "Arany János 1857-ben írta meg híres balladáját, A walesi bárdok című művét Ferenc József látogatására.",
+            "modalText": "Amikor Ferenc József osztrák császár 1857-ben Magyarországra látogatott, a magyar költőket felkérték, hogy írjanak dicsőítő ódát az uralkodóhoz. Arany János, a nemzet nagy költője, betegségre hivatkozva visszautasította a felkérést. Ehelyett titokban megírta 'A walesi bárdok' című balladát, amely Wales történelmét használta fel allegóriaként a magyar helyzetre.",
+            "modalImages": ["img/walesi_bardok.jpg", "img/king_edward.jpg"]
+        },
+        {
+            "id": "1", 
+            "img": "img/king_edward.jpg", 
+            "title": "I. Edward Kegyetlensége", 
+            "text": "A vers története szerint I. Edward angol király meghódítja Walest, majd felszólítja a bárdokat a dicsőítésére.",
+            "modalText": "A költemény I. Edward angol király walesi hadjáratát és az 1277-es montgomery-i lakomát meséli el. A király elvárta, hogy a meghódított nép költői (a bárdok) énekeljék meg nagyságát. A bárdok azonban sorra visszautasították a behódolást, és inkább a hazaszeretetet választották. A monda szerint Edward büntetésből ötszáz walesi bárdot küldött máglyára.",
+            "modalImages": ["img/king_edward.jpg", "img/castle4.jpeg"]
+        },
+        {
+            "id": "2", 
+            "img": "img/mountain1.jpeg", 
+            "title": "A Rejtett Üzenet", 
+            "text": "A mű burkolt politikai üzenetet hordozott, utalva a magyar szabadságharc leverésére és az elnyomásra.",
+            "modalText": "A ballada az 1848-49-es magyar forradalom és szabadságharc utáni elnyomás (a Bach-korszak) zseniális kritikája. Edward király alakja Ferenc Józsefet, míg a máglyára küldött walesi bárdok a meg nem alkuvó magyar hazafiakat szimbolizálták. A mű a passzív ellenállás és a nemzeti büszkeség egyik legfontosabb irodalmi emlékművévé vált Magyarországon.",
+            "modalImages": ["img/mountain1.jpeg", "img/walesi_bardok.jpg"]
+        }
+    ],
+    "attractions": [
+        {
+            "id": "0", 
+            "img": "img/caernarfon_castle.png", 
+            "title": "Caernarfon Vára", 
+            "text": "Az egyik legimpozánsabb középkori építmény. Itt iktatták be Károly herceget Walesi Herceggé.",
+            "modalText": "Caernarfon vára az egyik legkiválóbb példája a középkori katonai építészetnek Európában. I. Edward király építtette a 13. század végén egy római erődítmény alapjaira. Különleges, sokszögű tornyai és a falak sávozott kőmunkája a konstantinápolyi falakat idézi. A vár szimbolikus jelentőségű: hagyományosan itt avatják fel a walesi hercegeket.",
+            "modalImages": ["img/caernarfon_castle.png", "img/castle2.jpeg"]
+        },
+        {
+            "id": "1", 
+            "img": "img/castle3.jpeg", 
+            "title": "Conwy Vára", 
+            "text": "Az UNESCO Világörökség része, hatalmas falai és tornyai szinte érintetlenül maradtak fenn a középkor óta.",
+            "modalText": "Conwy vára és a hozzá tartozó, kivételesen jó állapotban fennmaradt városfal egy sziklás kiszögellésen tornyosul a Conwy folyó tölcsértorkolata fölé. A várat lenyűgöző sebességgel, mindössze négy év alatt építették fel (1283-1287). Hatalmas, kerek tornyai és sötét kőfalai robusztus, bevehetetlen erődítmény benyomását keltik.",
+            "modalImages": ["img/castle3.jpeg", "img/castle4.jpeg"]
+        }
+    ]
+}
